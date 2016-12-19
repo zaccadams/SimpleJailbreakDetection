@@ -20,10 +20,9 @@ Secondly, Use the below if/else statement below:
 
 ```
 if isJailbroken() {
-            print("Is JAILED")
-            self.truLabel.text = "This device is Jailbroken"
+            print("This Device is Jailbroken")
         } else {
             print("Not JAILED")
-            self.truLabel.text = "This device is not Jailbroken"
+            self.truLabel.text = "This Device is not Jailbroken"
         }
 ```
